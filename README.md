@@ -1,7 +1,7 @@
 # GCP-Final-Project
 
 # Terraform
-1. VPC
+## VPC
 2. [Point 1: management_subnet]
 3. we will create vpc [top-vpc]
 4. we will create the first subnet [management_subnet] (Public Subnet) 10.0.0.0/24
