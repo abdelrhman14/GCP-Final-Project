@@ -8,4 +8,4 @@
 5. we will create router [my-router]
 6. we will create NAT gateway [my-nat]
 7. we will create private VM  [iti-instance]
-8. we will create firewall rule to enforce the VM to be private by allowing access only through  IAP [firewall-to-allow-iap]
+8. we will create firewall rule to enforce the VM to be private by allowing access only through IAP [firewall-to-allow-iap]
