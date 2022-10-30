@@ -34,5 +34,9 @@
     1.2
         ~ docker tag redis gcr.io/abdelrahmantarek-project/abdo-redis
         ~ docker push gcr.io/my-project/abdo-redis
-    
- 
+### Connect to private cluster through private vm
+ ~ gcloud compute ssh iti-instance --tunnel-through-iap
+ ~ gcloud auth login
+ ~ sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin && gcloud container clusters get-credentials iti-cluster --zone us-east1-b
+ ![ahly3](https://user-images.githubusercontent.com/42601017/198861741-509329a9-1606-480a-bc73-33694bdaf392.png)
+
