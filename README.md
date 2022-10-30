@@ -49,3 +49,6 @@
 4. ~ kubectl apply -f config.yml
 5. ~ kubectl apply -f load-balancer.yml
 
+### ----> Result
+![ok](https://user-images.githubusercontent.com/42601017/198861980-a1c50492-df20-4655-850b-eb53ae1a5935.png)
+
