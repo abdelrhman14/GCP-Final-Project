@@ -29,11 +29,11 @@
     1.1
         ~ docker build -t django-python-app
         ~ docker tag django-python-app gcr.io/abdelrahmantarek-project/python-app
-        ~ docker push gcr.io/my-project/python-app
+        ~ docker push gcr.io/abdelrahmantarek-project/python-app
         
     1.2
         ~ docker tag redis gcr.io/abdelrahmantarek-project/abdo-redis
-        ~ docker push gcr.io/my-project/abdo-redis
+        ~ docker push gcr.io/abdelrahmantarek-project/abdo-redis
 ### Connect to private cluster through private vm
  1. ~ gcloud compute ssh iti-instance --tunnel-through-iap
  2. ~ gcloud auth login
