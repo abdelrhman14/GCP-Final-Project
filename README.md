@@ -1,6 +1,6 @@
-#### GCP-Final-Project
+### GCP-Final-Project
 
-# Terraform
+## Infrastructure Network Terraform 
 # VPC
 # [Point 1: management_subnet]
 1. we will create vpc [top-vpc]
