@@ -20,3 +20,6 @@
     1.5 firewall rule to enforce the VM to be private by allowing access only through  IAP
     1.6 creating our private cluster
     1.7 creating the node
+    ![ahly7](https://user-images.githubusercontent.com/42601017/198861398-fc0f631a-eb27-455a-9d6f-740fae39c918.png)
+
+    
