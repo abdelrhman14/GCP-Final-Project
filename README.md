@@ -22,7 +22,8 @@
     1.7 creating the node
  ![ahly7](https://user-images.githubusercontent.com/42601017/198861398-fc0f631a-eb27-455a-9d6f-740fae39c918.png)
     
-    terraform init
-    terraform apply
+    ~ terraform init
+    ~ terraform plan
+    ~ terraform apply
 
     
