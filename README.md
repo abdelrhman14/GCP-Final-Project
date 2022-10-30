@@ -39,4 +39,11 @@
  ~ gcloud auth login
  ~ sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin && gcloud container clusters get-credentials iti-cluster --zone us-east1-b
  ![ahly3](https://user-images.githubusercontent.com/42601017/198861741-509329a9-1606-480a-bc73-33694bdaf392.png)
+### All YML File we will deployment
+![ahly21](https://user-images.githubusercontent.com/42601017/198861825-13e808cb-9053-4564-aa07-8cc68c583eaa.png)
+~ kubectl apply -f redis-service.yml
+~ kubectl apply -f redis-deploy.yml
+~ kubectl apply -f app-deploy.yml
+~ kubectl apply -f config.yml
+~ kubectl apply -f load-balancer.yml
 
