@@ -13,3 +13,6 @@
     1. Private standard GKE cluster
     2. [hint] Only the private instance can access the private cluster
     
+
+
+![ahly7](https://user-images.githubusercontent.com/42601017/198861202-f22debf6-89c8-4141-b48e-a53b0c35352a.png)
