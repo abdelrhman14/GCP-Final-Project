@@ -25,5 +25,14 @@
     ~ terraform init
     ~ terraform plan
     ~ terraform apply
-
+### images deployed on GKE must come from GCR or Artifacts registry 
+    1.1
+        ~ docker build -t django-python-app
+        ~ docker tag django-python-app gcr.io/abdelrahmantarek-project/python-app
+        ~ docker push gcr.io/my-project/python-app
+        
+    1.2
+        ~ docker tag redis gcr.io/abdelrahmantarek-project/abdo-redis
+        ~ docker push gcr.io/my-project/abdo-redis
     
+ 
