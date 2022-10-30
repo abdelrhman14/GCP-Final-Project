@@ -12,7 +12,11 @@
 #### 1.2 restricted subnet
     1. Private standard GKE cluster
     2. [hint] Only the private instance can access the private cluster
-    
-
-
-![ahly7](https://user-images.githubusercontent.com/42601017/198861202-f22debf6-89c8-4141-b48e-a53b0c35352a.png)
+### Details 
+    1.1 VPC network
+    1.2 Two subnet [ management_subnet & restricted subnet ]
+    1.3 NAT gateway
+    1.4 private VM 
+    1.5 firewall rule to enforce the VM to be private by allowing access only through  IAP
+    1.6 creating our private cluster
+    1.7 creating the node
